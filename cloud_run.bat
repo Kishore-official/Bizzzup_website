@@ -41,7 +41,7 @@ gcloud run deploy %SERVICE_NAME% ^
   --cpu=1 ^
   --port=3000 ^
   --set-env-vars "NODE_ENV=production" ^
-  --set-env-vars "GEMINI_API_KEY=AIzaSyBoeoT9843OwLdGLz_ZuA_TrDRTQNwjt-I"
+  --set-env-vars "GEMINI_API_KEY="
 
 echo.
 echo Deployment complete!
